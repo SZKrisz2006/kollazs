@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+ <strong>
+ <html>
+  <body>
+   <body style="background-color:green;">
+   <h1 style="color: yellow"> Szedlák Krisztián</h1>
+    <h2 style="color: orange ">Listák</h2>
+
+
+    <p style="color: red "> Kedvenc tangtárgyaim:</p>
+     <ol>
+      <li style="color: orange">Angol</li>
+       <li style="color: yellow"> Matek</li>
+        <li style="color: orange"> IKT Projektmunka</li>
+  </ol>
+
+   <p style="color: red"> Kedvenc Szabadidős tevékenységeim:</p>
+    <ul>
+     <li style="color: orange">HTML írás</li>
+     <li style="color: yellow"> Rocket League-ezés</li>
+     <li style="color: orange">Anime nézés</li>
+  </ul>
+
+  </body>
+ </html>
+</strong>
+
