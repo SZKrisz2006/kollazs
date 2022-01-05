@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órarend</title>
+    <link rel="stylesheet" href="style.css">
+     <style>
+     body {
+     background-color: lightgray;
+     
+     
+     
+     }
+	  .sidebar 
+                {
+                    margin: 0;
+                    padding: 0;
+                    width: 200px;
+                    background-color: lightgray;
+                    position: fixed;
+                    height: 100%;
+                    overflow: auto;
+                }
+                
+                .sidebar a 
+                {
+                    display: block;
+                    color: black;
+                    padding: 16px;
+                    text-decoration: none;
+                }
+                
+                .sidebar a.active 
+                {
+                    background-color:lightblue;
+                    color: white;
+                }
+                
+                .sidebar a:hover:not(.active) 
+                {
+                    background-color: #555;
+                    color: white;
+                }
+                
+                div.content 
+                {
+                    margin-left: 200px;
+                    padding: 1px 16px;
+                    height: 1000px;
+                }
+                
+                @media screen and (max-width: 700px) 
+                {
+                    .sidebar 
+                    {
+                    width: 100%;
+                    height: auto;
+                    position: relative;
+                    }
+                    .sidebar a {float: left;}
+                    div.content {margin-left: 0;}
+                }
+                
+                @media screen and (max-width: 400px) 
+                {
+                    .sidebar a 
+                    {
+                    text-align: center;
+                    float: none;
+                    }
+                }
+              </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="https://szkrisz2006.github.io/kollazs/index.html" target="blank">FŐOLDAL</a>|
+        <a href="https://szkrisz2006.github.io/kollazs/keplink.html" target="blank">KÉPLINK</a>|
+        <a href="https://szkrisz2006.github.io/kollazs/listak.html">LISTÁK</a> |
+        <a href="https://szkrisz2006.github.io/kollazs/orarend.html" target="blank" class="active">ÓRAREND</a>|
+       </div>
+    <div class="content">
+    <table border="2px">
+        <tr style="background-color: #18474e">
+            <th>Óraszám</th>
+            <th>Hétfő</th>
+            <th>Kedd</th>
+            <th>Szerda</th>
+            <th>Csütörtök</th>
+            <th>Péntek</th>
+        </tr>
+        <tr  style="background-color: #246a75">
+            <td>0</td>
+            <td>-----</td>
+            <td>-----</td>
+            <td>-----</td>
+            <td>Testnevelés</td>
+            <td>Prog. Alapok</td>
+        </tr>
+        <tr style="background-color: #308e9c">
+            <td>1</td>
+            <td>Matek</td>
+            <td>Angol</td>
+            <td>Angol</td>
+            <td>-----</td>
+            <td>-----</td>
+        </tr>
+        <tr style="background-color: #3cb1c3">
+            <td>2</td>
+            <td>Komplex Természettudomány</td>
+            <td>Nyelvtan</td>
+            <td>Mateirodalom</td>   
+            <td>Informatika és Táv.</td>
+            <td>Nyelvtan</td>
+        </tr>
+        <tr  style="background-color:#63c1cf">
+            <td>3</td>
+            <td>Történelem</td>
+            <td>Történelem</td>
+            <td>Testnevelés</td>
+            <td>Informatika és Táv.</td>
+            <td>Angol</td>
+        </tr>
+        <tr style="background-color: #8ad0db">
+            <td>4</td>
+            <td>Irodalom</td>
+            <td>Matek</td>
+            <td>IKT Projektmunka</td>
+            <td>Inforamtika és Táv.</td>
+            <td>Komplex Természettudomány</td>
+        </tr>
+        <tr style="background-color: #b1e0e7">
+            <td>5</td>
+            <td>Digitális Kultúra</td>
+            <td>Irodalom</td>
+            <td>Osztályfőnöki</td>
+            <td>Angol</td>
+            <td>Matek</td>
+        </tr>
+        <tr style="background-color: #d8eff3">
+            <td>6</td>
+            <td>Digitális Kultúra</td>
+            <td>Testnevelés</td>
+            <td>Matek</td>
+            <td>Matek</td>
+            <td>Történelem</td>
+        </tr>
+        <tr style="background-color: white";>
+            <td>7</td>
+            <td>-----</td>
+            <td>Programozási Alapok</td>
+            <td>Komplex Természettudomány</td>
+            <td>IKT Projektmunka</td>
+            <td>Testnevelés</td>
+        </tr>
+        <tr style="background-color: white";>
+            <td>8</td>
+            <td>-----</td>
+            <td>Programozási Alapok</td>
+            <td>-----</td>
+            <td>-----</td>
+            <td>Testnevelés</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
