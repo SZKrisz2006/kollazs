@@ -1,0 +1,6 @@
+Szedlák Krisztián 
+
+Szofter = nem tapintható hardvert irányító program
+fajtái = ANI AGI ATI
+
+Hardver = valamilyen eszköz tapinható alkatrészekből alló
