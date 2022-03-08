@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pita</title>
+</head>
+<body>
+    <img src="pita.png">
+    <input type="number" id="a" placeholder="A"></input>
+    <input type="number" id="b" placeholder="B"></input>
+    <button onclick="kiszamol(a.value,b.value)">Kiszámol</button>
+    <p id="a,b"></p>
+    <script>
+        var c = 0
+        function kiszamol(a,b)
+        {
+            alert(Math.sqrt(a*a+b*b))
+            c=Math.sqrt(a*a+b*b)
+        }
+    </script>
+</body>
+</html>
